@@ -22,7 +22,7 @@ The only direction provided to you was the definition of a _Julian Day Number_ a
 
 Luckily, you made friends with someone from the Quality Assurance (QA) team and they've been mentoring you! You ask for some direction and they point out the formula you should use to calculate the Julian Day Number (JDN) for a date:
 
-![image of formula for julian day number](https://i.imgur.com/j6QWjba.gif)
+$$JDN = day + \dfrac{153m + 2}{5} + 365y + \dfrac{y}{4} - \dfrac{y}{100} + \dfrac{y}{400} - 32045$$
 
 Where:
 
